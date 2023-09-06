@@ -1,0 +1,73 @@
+.facilities {
+  height: 550px;
+  background-image: url("/img/facility__bg.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.facilities__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.facilities__main .facilities__title {
+  color: #FFF;
+  font-size: 47.78px;
+  font-weight: 700;
+  cursor: pointer;
+}
+.facilities__main .facilities__text {
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 400;
+  margin-top: 20px;
+  width: 580px;
+}
+.facilities__main .facilities__btn {
+  color: #FFF;
+  padding: 10px 20px;
+  border-radius: 8px;
+  background: var(--Primary, #43B97F);
+  font-size: 16px;
+  font-weight: 700;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.facilities__list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  flex-wrap: wrap;
+}
+.facilities__list .facilities__item {
+  text-align: center;
+  align-items: center;
+  width: 280px;
+  height: 178px;
+  border-radius: 15px;
+  background: #FFF;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.25);
+  margin-top: 20px;
+  margin-left: 10px;
+  padding-top: 24px;
+}
+.facilities__list .facilities__item .facilities__item img {
+  margin-top: 24px;
+  margin-left: 116px;
+}
+.facilities__list .facilities__item .facilities__item--h2 {
+  color: var(--TitleColor, #3D3E48);
+  font-size: 39.81px;
+  font-weight: 700;
+}
+.facilities__list .facilities__item .facilities__item--text {
+  color: var(--TitleColor, #3D3E48);
+  font-size: 16px;
+  font-weight: 500;
+  margin-top: 3px;
+}/*# sourceMappingURL=facilities.css.map */

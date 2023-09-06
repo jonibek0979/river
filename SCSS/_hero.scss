@@ -1,0 +1,14 @@
+.hero {
+    height: 250px;
+    background-image: url('/img/main__bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 160px;
+
+    .hero__title {
+        color: #FFF;
+        font-size: 33.18px;
+        font-weight: 700;
+    }
+}
